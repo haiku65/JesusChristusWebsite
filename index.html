@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Background Photo with Centered Container</title>
+  <style>
+    /* Reset default margin and set height for html and body */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Set the background image to cover the entire viewport */
+    body {
+      background-image: url("sky.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Style for the floating container */
+    .container {
+      background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+
+    /* Optional: style for headings and text inside container */
+    .container h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Wilkommen auf meiner kleinen Webseite über Jesus Christus.</h1>
+    <p>Jeder von Uns ist behaftet mit Sünden und Sorgen und sucht einen Sinn im Leben.</p>
+    <p>Die Antwort mein Freund meine Freundin ist Jesus.Jesus liebt dich. </p>
+    <p>Er mag nur unsere Sünden nicht. Er weiß, dass wir nicht perfekt sind, </p>
+    <p>aber er weiß dass wenn wir seine Schriften im Herzen tragen. Und mit unseren Sünden zu ihm kommen und beten. Er sie uns vergeben kann.  </p>
+    <p>Willst du deine Reise starten? </p>
+    <p>Dann lade dir eine Bibel herunter und folge den folgenden Youtube-Kanälen:</p>
+
+    <p>Bibel:</p>
+    <a href="Data/New-Revised-Standard-Version-Bible.pdf" title="Bibel" class="nav__link">Bibel</a>
+    <p>YoutubeKanäle:</p>
+    <a href="https://www.youtube.com/@R3alism_official" title="R3alism_official" class="nav__link">R3alism_official</a>
+    <a href="https://www.youtube.com/@BibleWithDaniel" title="BibleWithDaniel" class="nav__link">BibleWithDaniel</a>
+    <a href="https://www.youtube.com/@givemeananswer" title="Givemeananswer" class="nav__link">Givemeananswer</a>
+  </div>
+</body>
+</html>
